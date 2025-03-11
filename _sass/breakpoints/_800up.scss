@@ -72,10 +72,10 @@ HEADER STYLING
 	}
 
 	h1 {
-		font-size: 3em;
+		font-size: 5em;
 		line-height: 1;
-		letter-spacing: -3px;
-		padding-left: 0;
+		letter-spacing: -0.2px;
+		padding-left: 1em;
 	}
 
 	nav {
@@ -93,10 +93,10 @@ HEADER STYLING
 				border: none;
 
 				a {
-					color: white;
-					font-size: .9em;
+					color: black;
+					font-size: 1.1em;
 					text-decoration: none;
-					padding: 0 .25em;
+					padding: 0 1em;
 
 					&:hover {
 						color: darken(white, 20%);

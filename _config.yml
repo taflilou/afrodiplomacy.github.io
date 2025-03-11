@@ -17,6 +17,8 @@ markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
+full-width: true
+class: wide
 
 navigation:
     - title: Home
