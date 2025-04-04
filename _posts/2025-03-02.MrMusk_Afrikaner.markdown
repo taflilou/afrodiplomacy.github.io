@@ -11,7 +11,7 @@ description: "By 2050, Africa's population will reach 2.5 billion. ... One perso
 In high school, I was taught that the Americas were "discovered" by "Christopher Columbus" ...
 During casual discussions, I found out that none of my colleagues (in Europe) knew that 99% of the current borders of the African continent were actually made in ... <a href="https://en.wikipedia.org/wiki/Berlin_Conference">Berlin</a>.
 
-![Image](/assets/img/1280px-Kongokonferenz.jpg){:width="900"}
+![Image](/assets/img/mansahmusa.jpg){:width="900"}
 
 "L'effet papillon" is a metaphore that I really like in the sense that it explains how much we are interconnected: « Un battement d'ailes de papillon au Brésil peut-il déclencher une tornade au Texas ? »
 
