@@ -4,8 +4,6 @@ build-job:
   stage: build
   script:
     - echo "Hello, $GITLAB_USER_LOGIN"
-    - echo "Hello, $GITHUB_TOKEN "
-    - echo "Hello, $CI_GITHUB_TOKEN "
 
 test-job1:
   stage: test
@@ -19,8 +17,6 @@ deploy-prod:
   stage: deploy
   when: manual
   script:
-    - ls -alrth
-    - pwd
     - git config user.email "taflilou@gmail.com"
     - git config user.name "abdel tessilimi"
     - git remote add github_origin https://taflilou:$GITHUB_TOKEN@github.com/taflilou/afrodiplomacy.github.io.git
