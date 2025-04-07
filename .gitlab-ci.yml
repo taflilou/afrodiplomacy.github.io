@@ -24,5 +24,5 @@ deploy-prod:
     - git remote set-url github_origin https://taflilou:$GITHUB_TOKEN//github.com/taflilou/afrodiplomacy.github.io.git
     - git add .
     - git commit -m "Deploy to production"
-    - git push gitlab_origin HEAD:main -o ci.skip
+    - git push github_origin HEAD:main -o ci.skip
   environment: production
