@@ -3,8 +3,9 @@
 build-job:
   stage: build
   script:
-    - echo "Hello, $GITLAB_USER_LOGIN!"
-    - echo "Hello, $GITHUB_TOKEN!"
+    - echo "Hello, $GITLAB_USER_LOGIN"
+    - echo "Hello, $GITHUB_TOKEN "
+    - echo "Hello, $CI_GITHUB_TOKEN "
 
 test-job1:
   stage: test
