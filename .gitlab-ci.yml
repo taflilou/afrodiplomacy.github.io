@@ -1,0 +1,29 @@
+# This pipeline builds the current project, make unit tests and then deploys to Github
+
+build-job:
+  stage: build
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN"
+    - echo "Hello, $GITHUB_TOKEN "
+    - echo "Hello, $CI_GITHUB_TOKEN "
+
+test-job1:
+  stage: test
+  script:
+    - echo "This job tests something, but takes more time than test-job1."
+    - echo "After the echo commands complete, it runs the sleep command for 20 seconds"
+    - echo "which simulates a test that runs 20 seconds longer than test-job1"
+    - sleep 30
+
+deploy-prod:
+  stage: deploy
+  when: manual
+  script:
+    - git config user.email "taflilou@gmail.com"
+    - git config user.name "abdel tessilimi"
+    - echo "Hello, $GITHUB_TOKEN!"
+    - git remote add github_origin https://taflilou:$GITHUB_TOKEN//github.com/taflilou/afrodiplomacy.github.io.git
+    - git add .
+    # - git commit -m "Deploy to production"
+    - git push -u github_origin main --force 
+  environment: production
