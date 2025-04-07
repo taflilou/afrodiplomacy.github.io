@@ -27,7 +27,7 @@ deploy-prod:
     - git checkout main
     - git pull
     - git add .
-    - git commit -m "Deployment to production"
+    # - git commit -m "Deployment to production"
     # - git push --set-upstream github_origin main
     - git push github_origin main
   environment: production
