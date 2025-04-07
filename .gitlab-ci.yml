@@ -1,8 +1,5 @@
 # This pipeline builds the current project, make unit tests and then deploys to Github
 
-stages:
-  - unit-test 
-
 build-job:
   stage: build
   script:
