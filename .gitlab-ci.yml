@@ -17,8 +17,8 @@ test-job1:
     - echo "which simulates a test that runs 20 seconds longer than test-job1"
     - sleep 30
 
-deploy-github:
-  stage: Deploy to github
+deploy-prod:
+  stage: deploy
   script:
     - git config user.email "taflilou@gmail.com"
     - git config user.name "abdel tessilimi"
