@@ -17,13 +17,13 @@ test-job1:
 
 deploy-prod:
   stage: deploy
-  when: manual
+  # when: manual
   script:
     - git config user.email "taflilou@gmail.com"
     - git config user.name "abdel tessilimi"
     - echo "Hello, $GITHUB_TOKEN!"
     - git remote add github_origin https://taflilou:$GITHUB_TOKEN//github.com/taflilou/afrodiplomacy.github.io.git
     - git add .
-    # - git commit -m "Deploy to production"
-    - git push -u github_origin main --force 
+    - git commit -m "Deploy to production"
+    - git push -u github_origin HEAD:main --force 
   environment: production
