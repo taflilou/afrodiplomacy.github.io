@@ -1,9 +1,0 @@
----
-layout: post
-title:  "The currency issue"
-date:   2025-02-27
-description: "The currency issue in West Africa"
----
-
-<p class="intro"><span class="dropcap">C</span>FA franc is dommed to be replaced. By which currency ? When ? Why the process is tking so long ?</p>
-
