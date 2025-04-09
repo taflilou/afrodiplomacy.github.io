@@ -3,7 +3,7 @@ description: afrodiplomacy
 
 url: https://taflilou.github.io/afrodiplomacy.github.io
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: "" # Ex: /project-page
+baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -16,7 +16,7 @@ sass:
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 10
 full-width: true
 class: wide
 
