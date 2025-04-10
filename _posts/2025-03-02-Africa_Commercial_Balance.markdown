@@ -16,7 +16,7 @@ Let's wiki the basics:
 - [Trade balance (balance of trade)](https://en.wikipedia.org/wiki/Balance_of_trade): is the difference between the monetary value of a nation's exports and imports of goods over a certain time period. ... If a country exports a greater value than it imports, it has a trade surplus or positive trade balance, and conversely, if a country imports a greater value than it exports, it has a trade deficit or negative trade balance.
 
 Let's then have a closer look at IMF trade balance picture below:
-<img src="/assets/img/imf_tradebalance.png">
+![IMF_TradeBalance]({{ site.url }}{{ site.baseurl }}/assets/img/imf_tradebalance.png)
 
 Yes, I totally admit that the legend colors are not the best. But the darker towards red, the higher trade balance is; meaning the country exports more than it imports. If the color is more towards green (thus negative), it means the country imports more than it exports.
 

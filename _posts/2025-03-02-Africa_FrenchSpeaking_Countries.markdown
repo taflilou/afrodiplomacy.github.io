@@ -11,7 +11,7 @@ After the [scramble for Africa](https://en.wikipedia.org/wiki/Scramble_for_Afric
 
 France was actually one of the major players in Africa and had approximately a third of Africa in superficy as colonies.
 [Francophone Africa map] 
-<img src="/assets/img/afriqueoccidentalefrancaise.jpg">
+![AfriqueOccidentaleFrançaise]({{ site.url }}{{ site.baseurl }}/assets/img/afriqueoccidentalefrancaise.jpg)
 
 In the perspective of those African countries, it is clear that their trade relationships suffered a lot from the monopoly of France in business/trade.
 It is definitely easier to trade with many partners, stakeholders and countries, and businesses around the world if you speak or understand English. Maybe it will be Mandarin in a few years, But definitely, French speaking African countries need to multiply their partnerships with, as many countries in the world, as possible.

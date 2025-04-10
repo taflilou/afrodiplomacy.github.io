@@ -5,8 +5,8 @@
     <description>afrodiplomacy</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Apr 2025 18:19:46 +0200</pubDate>
-    <lastBuildDate>Thu, 10 Apr 2025 18:19:46 +0200</lastBuildDate>
+    <pubDate>Thu, 10 Apr 2025 18:35:44 +0200</pubDate>
+    <lastBuildDate>Thu, 10 Apr 2025 18:35:44 +0200</lastBuildDate>
     <generator>Jekyll v4.4.1</generator><item>
         <title>West Africa Projects</title>
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; lot of infrastructure projects are planning for West Africa in the years/decades to come. These projects will for sure shape the future of West Africa.&lt;/p&gt;
@@ -17,6 +17,8 @@
   &lt;li&gt;West Africa pipeline&lt;/li&gt;
   &lt;li&gt;Transsaharan pipeline&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;TODO: Add images of the projects&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The Abidjan-Lagos corridor
@@ -44,22 +46,23 @@ Another project set to impact greatly the West African region is the Trans-Sahar
         <guid isPermaLink="true">http://localhost:4000/blog/WestAfricaProjects/</guid></item><item>
         <title>Oldies of Africa</title>
         <description>&lt;p&gt;Mensah Musa representation, on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Catalan_Atlas&quot;&gt;Catalan Atlas&lt;/a&gt;
-&lt;img src=&quot;/assets/img/mansahmusa.jpg&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/mansahmusa.jpg&quot; alt=&quot;MansahMusa&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Tata Somba, in Benin
-&lt;img src=&quot;/assets/img/oldies_africa/tatasomba_benin.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/oldies_africa/.png&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/tatasomba_benin.png&quot; alt=&quot;TataSomba_Benin&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Benin bronzes, British Museum
-&lt;img src=&quot;/assets/img/oldies_africa/beninbronzes_britishmuseum.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/beninbronzes_britishmuseum.png&quot; alt=&quot;BeninBronzes_BritishMuseum&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Graffiti wall, Cotonou
-&lt;img src=&quot;/assets/img/oldies_africa/graffitiwall1_cotonou.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/oldies_africa/graffitiwall2_cotonou.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/oldies_africa/graffitiwall3_cotonou.png&quot; /&gt;
-&lt;img src=&quot;/assets/img/oldies_africa/graffitiwall4_cotonou.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/graffitiwall1_cotonou.png&quot; alt=&quot;graffitiwall1_cotonou&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/graffitiwall2_cotonou.png&quot; alt=&quot;graffitiwall2_cotonou&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/graffitiwall3_cotonou.png&quot; alt=&quot;graffitiwall3_cotonou&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/graffitiwall4_cotonou.png&quot; alt=&quot;graffitiwall4_cotonou&quot; /&gt;&lt;/p&gt;
 
 </description><description>&lt;p&gt;Mensah Musa representation, on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Catalan_Atlas&quot;&gt;Catalan Atlas&lt;/a&gt;
-&lt;img src=&quot;/assets/img/mansahmusa.jpg&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/assets/img/oldies_africa/mansahmusa.jpg&quot; alt=&quot;MansahMusa&quot; /&gt;&lt;/p&gt;
 </description><pubDate>Thu, 27 Feb 2025 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/blog/OldiesOfAfrica/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/OldiesOfAfrica/</guid></item><item>
@@ -67,6 +70,8 @@ Another project set to impact greatly the West African region is the Trans-Sahar
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;B&lt;/span&gt;ecause education is key to raise a new generation of African leaders to build wealth, prosperity and peace in their countries&lt;/p&gt;
 
 &lt;p&gt;As I was raised into a grown-up man, I feel like I’ve always missed a “paternal figure” in my life. I belive thousands if not millions of Africans can relate to that experience. Sad thing is, you can easily waste some years of your life by not having the good advice or mentor in the moment of your life you need it. Been there, lived that. This blog post is based on my own experience and relates what an African male should do in his life to try to be more successful. Again, I believe success is a very relative concept. One can have million of dollars in his bank account and feel he’s not successed in life, and someone else only a few bucks and dozens of children and feels like he’s the king of universe. Again, this list is only based on my own criterias; but I’m sure many of you can relate to it !&lt;/p&gt;
+
+&lt;p&gt;TODO: Mettre des images pour chaque chose&lt;/p&gt;
 
 &lt;p&gt;By 18&lt;/p&gt;
 &lt;ul&gt;

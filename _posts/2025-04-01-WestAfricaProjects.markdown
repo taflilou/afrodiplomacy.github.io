@@ -12,6 +12,8 @@ Contents
 2. West Africa pipeline
 3. Transsaharan pipeline
 
+TODO: Add images of the projects
+
 - The Abidjan-Lagos corridor
 I remember when I was a teenager, I traveled with my parents from Abidjan to Cotonou by road and I remember it was one of the best roadtrips I've taken in my life so far.
 This trip is definitely amazing, you cross borders and get to see a huge diversity in the people you come accross with, the foods, the smells are very different from one place to another. And the sight and breeze of the Atlantic ocean throughout the whole journey is absolutely amazing. Of course, you need to be in a good car with good comfort to really enjoy the journey. And of course they are other downsides like every roadtrip: lack of resting infrastructure and information about hotels, bad roads, pickpockets, ...
