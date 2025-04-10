@@ -9,7 +9,6 @@ Mensah Musa representation, on the [Catalan Atlas](https://en.wikipedia.org/wiki
 ![MansahMusa]({{ site.url }}{{ site.baseurl }}/assets/img/oldies_africa/mansahmusa.jpg)
 
 Tata Somba, in Benin
-<img src="/assets/img/oldies_africa/.png">
 ![TataSomba_Benin]({{ site.url }}{{ site.baseurl }}/assets/img/oldies_africa/tatasomba_benin.png)
 
 Benin bronzes, British Museum
