@@ -34,7 +34,11 @@ From what I can tell here are the major players :
 - Jean-Louis Billon
 - Simone Gbagbo
 
+<img src="{{ site.url }}{{ site.baseurl }}/../assets/img/ouattara_vs_gbagbo.jpg">
 ![OuattaraVSGbagbo]({{ site.url }}{{ site.baseurl }}/afrodiplomacy.github.io/assets/img/ouattara_vs_gbagbo.jpg)
+![OuatVSGba]({{ site.url }}{{ site.baseurl }}/afrodiplomacy.github.io/assets/img/ouattara_vs_gbagbo.jpg)
+![OVSG]({{ site.baseurl }}/afrodiplomacy.github.io/assets/img/ouattara_vs_gbagbo.jpg")
+<img src="{{ site.url }}{{ site.baseurl }}/afrodiplomacy.github.io/assets/img/ouattara_vs_gbagbo.jpg">
 
 There is a lot to know to understand the stake of the 2025 Ivoirian presidential elections. Let me try to give you some good pointers.
 
