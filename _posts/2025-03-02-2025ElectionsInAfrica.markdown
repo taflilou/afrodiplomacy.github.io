@@ -35,7 +35,6 @@ From what I can tell here are the major players :
 - Simone Gbagbo
 
 ![OuattaraVSGbagbo]({{ site.url }}{{ site.baseurl }}/assets/img/ouattara_vs_gbagbo.jpg)
-![OuatVSGba]({{ site.url }}{{ site.baseurl }}/assets/img/ouattara_vs_gbagbo.jpg)
 
 There is a lot to know to understand the stake of the 2025 Ivoirian presidential elections. Let me try to give you some good pointers.
 

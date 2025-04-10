@@ -11,4 +11,4 @@ Francs CFA, is the currency I've been using from my teenage age until I became a
 How come a government of a foreign country should be able to decide other's countries currency value ? How come a minister who never set on Africa and know its people should decide the value of the currency they use ?
 There's definitely something wrong behind the scenes but let's just say I'm pretty convince that CFA is living its last years ...
 
-<img src="/assets/img/fcfa_billets.png">
+![BilletsFCFA]({{ site.url }}{{ site.baseurl }}/assets/img/fcfa_billets.png)
