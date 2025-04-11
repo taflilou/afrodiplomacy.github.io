@@ -1,21 +1,39 @@
 # This pipeline builds the current project, make unit tests and then deploys to Github
 
+# default:
+  # image: ghcr.io/actions/jekyll-build-pages:v1.0.13
+
 build-job:
   stage: build
   script:
-    - echo "Hello, $GITLAB_USER_LOGIN"
-
-test-job1:
-  stage: test
-  script:
-    - echo "This job tests something, but takes more time than test-job1."
-    - echo "After the echo commands complete, it runs the sleep command for 20 seconds"
-    - echo "which simulates a test that runs 20 seconds longer than test-job1"
-    - sleep 30
+    # - ls
+    # Install Ruby Gems to ~/gems
+    - export GEM_HOME=/usr/local/bin
+    - export PATH=$GEM_HOME/bin:$PATH
+    # - TMP_GIT_CLONE=$HOME/tmp/myrepo && GEMFILE=$TMP_GIT_CLONE/Gemfile && PUBLIC_WWW=/var/www/myrepo
+    # - git clone $GIT_DIR $TMP_GIT_CLONE
+    - bundle install
+    - bundle exec jekyll build -s $HOME/tmp/myrepo -d /var/www/myrepo
+    # - BUNDLE_GEMFILE=$GEMFILE bundle install
+    # - BUNDLE_GEMFILE=$GEMFILE bundle exec jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
+    # - rm -Rf $TMP_GIT_CLONE
+    # - jekyll build
+    # exit 
+  # variables:
+    # source: .
+    # destination: ./_site
+    # verbose: true
+  artifacts:
+    paths:
+      - /var/www/myrepo
 
 deploy-prod:
   stage: deploy
   when: manual
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: manual
+      allow_failure: true
   script:
     - git config user.email "taflilou@gmail.com"
     - git config user.name "abdel tessilimi"
@@ -23,7 +41,7 @@ deploy-prod:
     - git checkout main
     - git pull
     - git add .
-    # - git commit -m "Deployment to production"
+    # - git commit --allow-empty -m "Deployment to production"
     # - git push --set-upstream github_origin main
     - git push -f github_origin main
   environment: production
