@@ -6,6 +6,7 @@
 build-job:
   stage: build
   script:
+    - echo ${CI_COMMIT_BRANCH}
     # - ls
     # Install Ruby Gems to ~/gems
     - export GEM_HOME=/usr/local/bin
@@ -29,11 +30,9 @@ build-job:
 
 deploy-prod:
   stage: deploy
-  when: manual
   rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-      when: manual
-      allow_failure: true
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
   script:
     - git config user.email "taflilou@gmail.com"
     - git config user.name "abdel tessilimi"
@@ -44,4 +43,3 @@ deploy-prod:
     # - git commit --allow-empty -m "Deployment to production"
     # - git push --set-upstream github_origin main
     - git push -f github_origin main
-  environment: production
