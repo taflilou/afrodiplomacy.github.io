@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_917db52f2e8583664497593559f5a580 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_917db52f2e8583664497593559f5a580" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_917db52f2e8583664497593559f5a580 = L.map(
+                "map_917db52f2e8583664497593559f5a580",
+                {
+                    center: [6.142791213417654, 1.2581848324229319],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bf97253130a5ef8ce11f66e8b7518f2b = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bf97253130a5ef8ce11f66e8b7518f2b.addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+            var marker_4b66834cba35e3ece885961ace4f4706 = L.marker(
+                [6.1201441710422895, 1.2129473126156964],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+            var icon_887bbbb8a1e782abd906e397ad6fd2d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "glyphicon glyphicon-home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efd5cac9ba246d27acadf93b29171260 = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_84b9a8fb35604d07a445b1e8e9983182 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEyMDE0NDE3MTA0MjI4OTUsMS4yMTI5NDczMTI2MTU2OTY0PiBQYWxhaXMgZGUgTG9tw6kgPC9hPg==" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_efd5cac9ba246d27acadf93b29171260.setContent(i_frame_84b9a8fb35604d07a445b1e8e9983182);
+            
+        
+
+        marker_4b66834cba35e3ece885961ace4f4706.bindPopup(popup_efd5cac9ba246d27acadf93b29171260)
+        ;
+
+        
+    
+    
+            marker_4b66834cba35e3ece885961ace4f4706.bindTooltip(
+                `<div>
+                     Palais de Lomé
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b66834cba35e3ece885961ace4f4706.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_cdb617a2101b313a183f635d898011f0 = L.marker(
+                [6.125087969763464, 1.2269610418432833],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_914bcba77981e57ebfd8c37a68845d81 = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_57cdc1e8a6a91e3684ca51b921f20061 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEyNTA4Nzk2OTc2MzQ2NCwxLjIyNjk2MTA0MTg0MzI4MzM+IENhdGjDqWRyYWxlIFNhY3LDqSBDb2V1ciA8L2E+" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_914bcba77981e57ebfd8c37a68845d81.setContent(i_frame_57cdc1e8a6a91e3684ca51b921f20061);
+            
+        
+
+        marker_cdb617a2101b313a183f635d898011f0.bindPopup(popup_914bcba77981e57ebfd8c37a68845d81)
+        ;
+
+        
+    
+    
+            marker_cdb617a2101b313a183f635d898011f0.bindTooltip(
+                `<div>
+                     Cathédrale Sacré Coeur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cdb617a2101b313a183f635d898011f0.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_c10c3e3cf0416fd552cfee46c3c91047 = L.marker(
+                [6.127884571016984, 1.2394756074765576],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_9ac82c0a5995d3ee509104ad489f68df = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_0e10749a6671f1f1ea6b165e22d97c00 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEyNzg4NDU3MTAxNjk4NCwxLjIzOTQ3NTYwNzQ3NjU1NzY+IExhIHBsYWdlIGRlIExvbcOpIDwvYT4=" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_9ac82c0a5995d3ee509104ad489f68df.setContent(i_frame_0e10749a6671f1f1ea6b165e22d97c00);
+            
+        
+
+        marker_c10c3e3cf0416fd552cfee46c3c91047.bindPopup(popup_9ac82c0a5995d3ee509104ad489f68df)
+        ;
+
+        
+    
+    
+            marker_c10c3e3cf0416fd552cfee46c3c91047.bindTooltip(
+                `<div>
+                     La plage de Lomé
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c10c3e3cf0416fd552cfee46c3c91047.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_d9b3a15590a70e068c99bfbea9ba4332 = L.marker(
+                [6.13079877347819, 1.2178372651262699],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_15bc614af0e7a0f936ca99c0ac601d48 = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_d589eeb5b4d31a01ad0fb267db35c73d = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEzMDc5ODc3MzQ3ODE5LDEuMjE3ODM3MjY1MTI2MjY5OT4gUGFsYWlzIGRlcyBjb25ncsOocyBkZSBMb23DqSA8L2E+" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_15bc614af0e7a0f936ca99c0ac601d48.setContent(i_frame_d589eeb5b4d31a01ad0fb267db35c73d);
+            
+        
+
+        marker_d9b3a15590a70e068c99bfbea9ba4332.bindPopup(popup_15bc614af0e7a0f936ca99c0ac601d48)
+        ;
+
+        
+    
+    
+            marker_d9b3a15590a70e068c99bfbea9ba4332.bindTooltip(
+                `<div>
+                     Palais des congrès de Lomé
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d9b3a15590a70e068c99bfbea9ba4332.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_baaf8775bf1cd4d33fb4079cb5763586 = L.marker(
+                [6.130136073690861, 1.2168122743810261],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_06a7d70c2865b82ac71429eedee4609a = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_e0260482cd56f275804fecaa9b87e98c = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEzMDEzNjA3MzY5MDg2MSwxLjIxNjgxMjI3NDM4MTAyNjE+IExlIG1vbnVtZW50IGRlIGwnaW5kw6lwZW5kYW5jZSA8L2E+" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_06a7d70c2865b82ac71429eedee4609a.setContent(i_frame_e0260482cd56f275804fecaa9b87e98c);
+            
+        
+
+        marker_baaf8775bf1cd4d33fb4079cb5763586.bindPopup(popup_06a7d70c2865b82ac71429eedee4609a)
+        ;
+
+        
+    
+    
+            marker_baaf8775bf1cd4d33fb4079cb5763586.bindTooltip(
+                `<div>
+                     Le monument de l'indépendance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_baaf8775bf1cd4d33fb4079cb5763586.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_00eeaebb48b1ff504b916b9bb54c2d19 = L.marker(
+                [6.128682206911854, 1.2160317460214338],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_3693aa120dbaad3d3f070095a08f14b8 = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_334462d395c196cbe50a6acda9d79597 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEyODY4MjIwNjkxMTg1NCwxLjIxNjAzMTc0NjAyMTQzMzg+IEhvdGVsIDIgRsOpdnJpZXIgPC9hPg==" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_3693aa120dbaad3d3f070095a08f14b8.setContent(i_frame_334462d395c196cbe50a6acda9d79597);
+            
+        
+
+        marker_00eeaebb48b1ff504b916b9bb54c2d19.bindPopup(popup_3693aa120dbaad3d3f070095a08f14b8)
+        ;
+
+        
+    
+    
+            marker_00eeaebb48b1ff504b916b9bb54c2d19.bindTooltip(
+                `<div>
+                     Hotel 2 Février
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_00eeaebb48b1ff504b916b9bb54c2d19.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_68c5a7b3ef0017e4bdc492256faf1499 = L.marker(
+                [6.137492006016624, 1.266313128350842],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_0609d520b40ce1d5387bb143634446b4 = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_20d9699cf428d51d65204a736eb9fabe = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEzNzQ5MjAwNjAxNjYyNCwxLjI2NjMxMzEyODM1MDg0Mj4gTWVyY3VyZSBTYXJha2F3YSBIb3RlbCA8L2E+" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_0609d520b40ce1d5387bb143634446b4.setContent(i_frame_20d9699cf428d51d65204a736eb9fabe);
+            
+        
+
+        marker_68c5a7b3ef0017e4bdc492256faf1499.bindPopup(popup_0609d520b40ce1d5387bb143634446b4)
+        ;
+
+        
+    
+    
+            marker_68c5a7b3ef0017e4bdc492256faf1499.bindTooltip(
+                `<div>
+                     Mercure Sarakawa Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68c5a7b3ef0017e4bdc492256faf1499.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+    
+            var marker_5f93049c265bb68ae40dc7b980346275 = L.marker(
+                [6.1256673399645445, 1.2255251209469913],
+                {
+}
+            ).addTo(map_917db52f2e8583664497593559f5a580);
+        
+    
+        var popup_4007d7b907a1eb08a8464f3ad37cae62 = L.popup({
+  "maxWidth": 200,
+  "maxHeight": 50,
+});
+
+        
+            
+                var i_frame_3b46b4230dfd388f709e2d424604d216 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8YSBocmVmPWh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9wbGFjZS82LjEyNTY2NzMzOTk2NDU0NDUsMS4yMjU1MjUxMjA5NDY5OTEzPiBMb23DqSBHcmFuZCBNYXJrZXQgKEFzc2lnYW5tw6gpIDwvYT4=" width="200" style="border:none !important;" height="50"></iframe>`)[0];
+                popup_4007d7b907a1eb08a8464f3ad37cae62.setContent(i_frame_3b46b4230dfd388f709e2d424604d216);
+            
+        
+
+        marker_5f93049c265bb68ae40dc7b980346275.bindPopup(popup_4007d7b907a1eb08a8464f3ad37cae62)
+        ;
+
+        
+    
+    
+            marker_5f93049c265bb68ae40dc7b980346275.bindTooltip(
+                `<div>
+                     Lomé Grand Market (Assiganmè)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f93049c265bb68ae40dc7b980346275.setIcon(icon_887bbbb8a1e782abd906e397ad6fd2d1);
+            
+</script>
+</html>

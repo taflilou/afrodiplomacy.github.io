@@ -1,35 +1,104 @@
 ---
 layout: post
-title:  "Geopolitics in/of Africa"
+title:  "Social accounts to enjoy Africa"
 date:   2025-02-27
-description: "By 2050, Africa's population will reach 2.5 billion. ... One person out of 4 will be African"
+description: "Solo traveling in Africa can be challenging if you don't have the righ pointers..."
 ---
 
-<p class="intro"><span class="dropcap">T</span>he United Nations projects that by 2050, Africa's population will reach close to 2.5 billion. Such a figure would mean that more than 25 percent of the world's population will be African. <a href="https://www.imf.org/-/media/Files/Publications/Fandd/Article/2023/September/Picture-this-0923.ashx">Source</a></p>
+<p class="intro"><span class="dropcap">A</span>s social accounts become very widely used, it can also help you enhance your travel experience in Africa, depending on your tastes.</a></p>
+
+Nobody has the same tastes as someone else, I can't agree more. But when it comes to traveling to Africa, it can be really challenging, if you don't speak the language (there are so many in Africa), if you don't know anyone local, if you find yourself very introverted and not so eager to approach people you don't know. Africa is huge and diverse, and knowing the right places which would be open and welcoming to travelers and hopefully aware of your customs in your local country or speaking your language could definitely help your experience. Social accounts can help you check and see if you would consider visit a place, a bar, a restaurant, a fablab, or any place you feel welcoming. Remember, you always decide where you go or not. This post is just a pointer.
+
+The easiest way for me to organize this post is by country/city/tastes.
 
 Ghana
-- location_ghana: https://www.instagram.com/location_ghana/
+    Accra
+        Shopping
+        Events
+            [location_ghana](https://www.instagram.com/location_ghana/)
+        Restaurants
+        Bars
+        Markets
+        Finances
+        Tourism
+        Car-rentals
+        Accomodation
+    Kumasi
 
-Benin
-
-Togo
-
-Côte d'Ivoire
-
-Sénégal
-
-Maroc
-
-Mali
-
-Guinée
-
-Nigeria
+- 
 
 Kenya
+    Nairobi
+    Mombasa
+
+South Africa
+
+Botswana
+
+Namibia
+
+Zimbabwe
+
+Zambia
+
+Mozambique
+
+Namibia
+
+Tanzania
+
+Uganda
+
+Mauritus
+
+Seychelles
+
+Madagascar
+
+Egypt
+
+Tunisia
+
+Benin
+    Cotonou
+    Porto-Novo
+    Ouidah
+
+Togo
+    Lomé
+    Aného
+
+Côte d'Ivoire
+    Abidjan
+    Grand-Bassam
+    Yamoussoukro
+
+Sénégal
+    Dakar
+    Sali
+
+Maroc
+    Marrakech
+    Casablanca
+    Rabat
+    Fez
+    Agadir
+    Tanger
+
+Mali
+    Bamako
+
+Guinée
+    Conakry
+
+Nigeria
+    Lagos
+    Abuja
+
+
 
 Congo
+    Brazzaville
 
 RDC
-
-
+    Kinshasa

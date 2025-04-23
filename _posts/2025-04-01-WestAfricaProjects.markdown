@@ -20,10 +20,15 @@ This trip is definitely amazing, you cross borders and get to see a huge diversi
 So, back to the Abidjan-Lagos corridor. It consists on a high-speed highway from Abidjan to Lagos, accross the Atlantic ocean, through Accra, Lomé and Cotonou.
 When fully implemented, this corridor will dramastically reduce transit time from one city to another accross the corridor. It will boost economic integration between the major economies of the region and positively impact the populations close to this corridor and beyond.
 It was originally due in XXXX but nowadays, ECOWAS plans to fully finalize this project by XXXX.
+![abidjan_lagos_corridor]({{ site.url }}{{ site.baseurl }}/abidjan_lagos_corridor.png)
 
 2. West African (gas) pipeline
 This project is led by the Moroccan and Nigerian governements and also all the governments of Benin, Togo, Ghana, Sierra Leone, Liberia, Guinea, Senegal, Mauritania in which the gas pipeline should transit when the project is terminated. As the Russia/Ukraine war is ongoing, Europe needs to diversify its gas proivisionning partners and Nigeria is known in Africa to be one of major oil producer and its gas production is set to dramatically increase in the years to come.
 Morocco would then sell Nigerian gas to its European counterparts through pipeline or harbours terminals connecting Africa to Europe.
+![nigeria_morocco_pipeline]({{ site.url }}{{ site.baseurl }}/nigeria_morocco_pipeline.jpeg)
+Source: The Africa Report
 
 3. Transsaharan pipeline
 Another project set to impact greatly the West African region is the Trans-Saharan pipeline. This project aims to export Nigerian gas through the countries of Niger and Algeria. This project is my humble opinion very difficult to achieve as it would transit throughout the whole Sahara desert and also face terrorists/djihadists groups in the region.
+![transsaharan_pipeline]({{ site.url }}{{ site.baseurl }}/transsaharan_pipeline.png)
+Source: DW

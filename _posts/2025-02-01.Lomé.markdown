@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Lomé, la belle"
+date:   2025-03-02
+description: "Lomé, la belle"
+---
+
+<p class="intro"><span class="dropcap">L</span>omé, la brise de l'océan qui vous caresse la joue, ses habitants si acceuillants, le temps qui est comme figé, loin de tout, la vraie douceur de vivre ...</p>
+
+Je fais ce post en Français, car j'aime bien l'idée d'avoir un blog dans lequel je mêle les langues, les savoirs, les cultures.
+Lomé est une ville que j'apprécie particulièrement en Afrique de l'Ouest. Elle à la fois vivable et agréable. A Lomé, chacun peut y trouve son bonheur, à moindre côut. Ceux qui aiment les villes bruyantes seront servis. Tout comme ceux qui apprécient le calme et la quiétude, entendre le bruit des vagues qui se brisent sur les côtes.
+
+J'ai fais une carte de Lomé avec les différents points d'intérêts qui peuvent servir la communauté. La voici:
+
+{% include Lome.html %}
