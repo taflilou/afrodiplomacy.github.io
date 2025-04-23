@@ -34,6 +34,7 @@ deploy-prod:
     - if: $CI_COMMIT_BRANCH == "main"
       when: always
   script:
+<<<<<<< HEAD
     - git init
     - git config user.email "taflilou@gmail.com"
     - git config user.name "abdel tessilimi"
@@ -45,3 +46,14 @@ deploy-prod:
     - git commit --allow-empty -m "Deployment to production"
     - git push -f --set-upstream github_origin main
     # - git push -f github_origin main
+=======
+    - git config user.email "taflilou@gmail.com"
+    - git config user.name "abdel tessilimi"
+    - git remote add github_origin https://taflilou:$GITHUB_TOKEN@github.com/taflilou/afrodiplomacy.github.io.git
+    - git checkout main
+    - git pull
+    - git add .
+    # - git commit --allow-empty -m "Deployment to production"
+    # - git push --set-upstream github_origin main
+    - git push -f github_origin main
+>>>>>>> d9efecd (Add prod rule)

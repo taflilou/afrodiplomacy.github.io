@@ -1,0 +1,6 @@
+
+# run jekyll project
+alias runjekyll="bundle exec jekyll serve"
+
+# TIP: how images link should look like to be rendered in 127.0.0.1 and in GithubPages
+# ![OuattaraVSGbagbo]({{ site.url }}{{ site.baseurl }}/assets/img/ouattara_vs_gbagbo.jpg)
