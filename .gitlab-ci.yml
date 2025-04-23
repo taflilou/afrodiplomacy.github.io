@@ -39,9 +39,8 @@ deploy-prod:
     - git config user.name "abdel tessilimi"
     - git remote add github_origin https://taflilou:$GITHUB_TOKEN@github.com/taflilou/afrodiplomacy.github.io.git
     - git fetch
-    # - git pull
     - git checkout main
-    # - git pull
+    - git pull
     - git add .
     - git commit --allow-empty -m "Deployment to production"
     - git push --set-upstream github_origin main
